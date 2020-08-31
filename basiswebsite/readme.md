@@ -63,8 +63,21 @@ Mijn focus: Responsive
 De opdracht: https://www.bungie.net/
 
 Screenshot(s):
+Laptop:
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/HomeBungienet.png)
+
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/HomeBungienet2.png)
+
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/BungienetBeyond.png)
+
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/SeasonsBungienet.png)
+
+Mobile:
+
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/MobileHome.jpeg)
+
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/MobileNav.jpeg)
 
 Breakdown-schets(en):
 
