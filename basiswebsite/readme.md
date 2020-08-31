@@ -58,7 +58,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 Mijn startniveau: Rood / Zwart
 
-Mijn focus: Responsive
+Mijn focus: Responsive (en als dat kan beide)
 
 De opdracht: https://www.bungie.net/
 
