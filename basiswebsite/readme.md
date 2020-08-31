@@ -81,4 +81,4 @@ Mobile:
 
 Breakdown-schets(en):
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/Wireframe 1.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/Wireframe1.png)
