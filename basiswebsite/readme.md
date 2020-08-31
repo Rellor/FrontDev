@@ -56,7 +56,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-Mijn startniveau: Zwart
+Mijn startniveau: Rood / Zwart
 
 Mijn focus: Responsive
 
