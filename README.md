@@ -83,4 +83,6 @@ Breakdown-schets(en):
 
 Dit is de hoofdpagina:
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/Wireframe1.png)
+
+Small screen
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/bungienetsmall.png)
