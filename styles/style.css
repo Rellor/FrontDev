@@ -6,3 +6,9 @@
 html {
   background-color: #060606;
 }
+
+.featured {
+  background-image: url("images/Homepage_mobile.jpg");
+  /*top: 0px;*/
+  opacity: 1;"
+}
