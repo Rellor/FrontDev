@@ -11,5 +11,13 @@ html {
 .featured {
   background-image: url("images/Homepage_mobile.jpg");
   /*top: 0px;*/
-  opacity: 1;"
+  /*opacity: 1;*/
+}
+
+nav {
+  display: flex;
+}
+
+nav ul li {
+  font-size: 1em;
 }
