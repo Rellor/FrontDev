@@ -1,5 +1,8 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box;
 }
 
+html {
+  background-color: #060606;
+}
