@@ -3,21 +3,117 @@
   box-sizing:border-box;
 }
 
-html {
-  background-color: #060606;
+body {
   color: white;
+  margin: 0;
+  background-color: #060606;
+  font-family: Arial,sans-serif;
 }
 
-.featured {
-  background-image: url("images/Homepage_mobile.jpg");
-  /*top: 0px;*/
-  /*opacity: 1;*/
+/* -----TOPNAV----- */
+
+header {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 45px;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: linear-gradient(to bottom, rgba(18,23,28,0.75), transparent)
 }
 
-nav {
+ul {
   display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
 }
 
-nav ul li {
+ul li {
+  margin: 0.5em 0.7em;
+}
+
+ul li:nth-last-of-type(1){
   font-size: 1em;
+  position: absolute;
+  color: yellow;
+  right: 0.3em;
+}
+
+ul li:nth-of-type(1){
+  font-size: 1em;
+  position: absolute;
+  color: red;
+}
+
+ul li:nth-of-type(2){
+  font-size: 1em;
+  position: absolute;
+  color: blue;
+  right: 4.2em;
+}
+
+.navlogo {
+  width: 9em;
+}
+
+.navtaal {
+  width: 1.5em;
+  opacity: 0.7;
+}
+
+.navmenu {
+  width: 1.9em;
+  margin-top: 0.1em;
+}
+
+/* BANNER */
+
+main section {
+  /*background-color: hotpink;*/
+  top: 0;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding-top: 42vh;
+}
+
+h2 span {
+  display: block;
+}
+
+.banner h2 {
+  width: 75%;
+  margin: auto;
+  padding: 0.8em 0em;
+  font-size: 8vw;
+}
+
+.bannerimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/Homepage_mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.banner img {
+  width: 75vw;
+  z-index: 2;
+  padding-bottom: 1.3em;
+  border-bottom: 2px solid rgba(245,245,245,0.2);
+}
+
+.banner button {
+  border: 1px solid #ffce1f;
+  background-color: rgba(183,140,37,0.8);
+  color: white;
+  padding: 12px 24px;
 }
