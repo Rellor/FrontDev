@@ -38,7 +38,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Het maken van de website ging lekker, ik had wel wat meer moeite met verschillende soorten afmetingen (em, % enz)
 
 **Screenshot(s):**
 
@@ -46,7 +46,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+Ieder laat voor zich hun website zien. Dan kunnen mensen de vragen stellen die ze willen. Na die vragen kunnen we algemene vragen stellen.
 
 ### Verslag van meeting
 
