@@ -43,6 +43,7 @@ Het maken van de website ging lekker, ik had wel wat meer moeite met verschillen
 **Screenshot(s):**
 
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Voortgang.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Voortgang2.png)
 
 ### Agenda voor meeting
 
