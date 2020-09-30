@@ -30,7 +30,23 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+
+Gaat goed. Ik wil volgende keer alleen ietjes meer af hebben. Heb nog wel een vraag straks voor bij het gesprek.
+
+**Screenshot(s):**
+
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Voortgang.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Voortgang2.png)
+
+### Agenda voor meeting
+
+Ieder laat voor zich hun website zien. Dan kunnen mensen de vragen stellen die ze willen. Na die vragen kunnen we algemene vragen stellen.
+
+### Verslag van meeting
+
+--
+
 
 
 
@@ -51,7 +67,7 @@ Ieder laat voor zich hun website zien. Dan kunnen mensen de vragen stellen die z
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Werk gaat lekker.
 
 
 
