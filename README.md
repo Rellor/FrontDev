@@ -36,8 +36,7 @@ Gaat goed. Ik wil volgende keer alleen ietjes meer af hebben. Heb nog wel een vr
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Voortgang.png)
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Voortgang2.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Voortgang2frondend.png)
 
 ### Agenda voor meeting
 
