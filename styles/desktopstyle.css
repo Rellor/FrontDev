@@ -125,6 +125,33 @@
     margin: 26vh 8vw 0vh 8vw;
 }
 
+.items .itemdiv {
+  display: flex;
+  flex-wrap:wrap;
+  margin-top: 0;
+  flex-basis: 23%;
+}
+
+.itemdiv article:nth-of-type(n+1) {
+  flex-basis: 100%;
+}
+
+.itemdiv {
+  margin-top: 0px;
+  height: 41.5vh;
+}
+
+.items .itemdiv img {
+    width: 108%;
+    height: 19.5vh;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.items .itemdiv article{
+  height: 15vh;
+}
+
 /* scrollbar */
 
 ::-webkit-scrollbar {
