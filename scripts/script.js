@@ -1,14 +1,23 @@
 // JavaScript Document
 var eerstepositie = window.pageYOffset;
-
+var hamburger = document.querySelector(".hamburger");
+var header = document.querySelector("#header");
+var menubtn = document.querySelector(".menu");
 
 window.onscroll = function() {
   var positienu = window.pageYOffset;
 
   if (positienu > 50) {
-    document.getElementById("header").style.background = "#12171c";
+    header.classList.add("darkbackground");
   } else {
-    document.getElementById("header").style.background = "linear-gradient(to bottom, rgba(18,23,28,0.75), transparent)";
+    header.classList.remove("darkbackground");
   }
   eerstepositie = positienu;
 }
+
+function showhamburger () {
+   hamburger.classList.toggle("hidden");
+   header.classList.toggle("darkbackground");
+}
+
+menubtn.addEventListener('click' , showhamburger);
