@@ -1,7 +1,13 @@
 /* CSS Document */
 *, *::after, *::before {
   box-sizing:border-box;
-  transition: 0.7s;
+  transition: 0.5s;
+}
+
+.hidden {
+  transform: translate(100%);
+  opacity: 0%;
+  transition: 0.5s;
 }
 
 body {
@@ -77,6 +83,10 @@ header ul li:nth-of-type(n+2){
   visibility: hidden;
 }
 
+.darkbackground {
+  background: black;
+}
+
 /* hamburger */
 
 .hamburger {
@@ -86,6 +96,7 @@ header ul li:nth-of-type(n+2){
   z-index: 69;
   position: absolute;
   top: 40px;
+  transform: translate(0%);
 }
 
 .hamburger li a{
@@ -96,11 +107,19 @@ header ul li:nth-of-type(n+2){
   list-style-type: none;
 }
 
-.hamburger li:first-child {
+.hamburger li:first-of-type {
+  margin-top: 1.5em;
+}
+
+.hamburger li:nth-of-type(-n+2) {
   text-align: center;
 }
 
-.hamburger li:first-child button {
+.hamburger li:nth-last-of-type(1) {
+  text-align: center;
+}
+
+.hamburger li button {
   text-align: center;
   width: 92%;
   height: 2.5em;
@@ -108,14 +127,39 @@ header ul li:nth-of-type(n+2){
   color: #f5f5f5;
   border: 1px solid #ffce1f;
   margin-bottom: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
-
-.hamburger li:nth-last-of-type(-n+2) {
+.hamburger li:nth-of-type(2) button {
   text-align: center;
+  width: 92%;
+  height: 2.5em;
+  background-color: #3f4347;
+  color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
 }
 
+.hamburger li:nth-of-type(n+3) a {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  color: rgba(245,245,245,0.75);
+}
+
+.hamburger li:nth-of-type(n+3) {
+  width: 100%;
+  background-color: #181d23;
+  color: #f5f5f5;
+  font-size: 1.3rem;
+  padding: 17px 4%;
+  margin-bottom: 1px;
+}
+
+.hamburger li:last-of-type{
+    background: none;
+    padding: 17px 0;
+}
 
 /* BANNER */
 
@@ -182,6 +226,7 @@ h2 span {
   color: white;
   padding: 12px 24px;
 }
+
 
 /* FEATURED */
 
@@ -289,7 +334,6 @@ footer img {
 
 footer {
   background-color: #14191e;
-  margin-top: 4em;
   padding: 1em;
   text-align: center;
 }
@@ -447,4 +491,220 @@ footer ul li {
   background: #272e3d;
 }
 
+}
+
+@media (min-height: 700px) {
+#play .bannerimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 85%;
+  width: 100%;
+  background-image: url("../images/playmobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+}
+
+@media (max-width: 700px) {
+#play .bannerimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/playmobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+}
+
+#play
+
+#play main nav ul {
+  float: right;
+  top: 10%;
+}
+
+#play main nav ul li a {
+  background: rgba(183,140,37,0.8);
+  color: #f5f5f5;
+  border: 1px solid #ffce1f;
+  padding: 4px 9px;
+  font-size: 0.8em;
+  position: relative;
+  font-weight: 600;
+  top FONT-WEIGHT: 400;
+}
+
+#play main .banner p {
+  font-size: 22px;
+  padding: 0 1rem;
+  margin-top: 1rem;
+  letter-spacing: 5px;
+  width: 85%;
+  color: #41403d;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-top: 1px solid #41403d;
+  border-bottom: 1px solid #41403d;
+  margin: auto;
+}
+
+.p4f {
+  padding: 2%;
+  margin-left: 54.5%;
+}
+
+#play main .banner img {
+  padding-bottom: 0;
+  padding-top: 10em;
+  border-bottom: none;
+}
+
+#play main .banner {
+  top: 0;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding-top: 45vh;
+  margin-bottom: 3em;
+}
+
+#play main nav {
+  background-color: #41403d;
+  height: 3em;
+}
+
+#play main section div p:first-of-type {
+  color: hsla(0,0%,96.1%,.75);
+  letter-spacing: 3px;
+  border-bottom: 1px solid hsla(0,0%,96.1%,.75);
+  margin: 0 0 auto 0;
+  text-transform: uppercase;
+  width: 7.7em;
+}
+
+#play main section div h2 {
+  font-size: 2em;
+  font-weight: 300;
+}
+
+#play main section div p:last-of-type {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+#play main section div {
+  position: relative;
+  top: 21.5em;
+  text-align: left;
+  margin: 2em;
+}
+
+#play main section:nth-of-type(2) {
+  background-image: url("../images/world_1_mobile.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+
+  height: 80vh;
+  margin-bottom: 13.2em;
+  margin-top: -2em;
+}
+
+#play main section:nth-of-type(3) {
+  background-image: url("../images/world_2_mobile.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+
+  height: 80vh;
+  margin-bottom: 15.5em;
+}
+
+#play main section:nth-of-type(4) {
+  background-image: url("../images/destinations_bg_mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+
+  height: 88vh;
+  margin-bottom: 42.2em;
+}
+
+#play main .destanations div:nth-of-type(n+2) {
+  background-color: black;
+  border-top: 4px solid rgba(245, 245, 245, 0.5);
+  padding: 1em;
+}
+
+#play main .destanations div p:first-of-type {
+  color: white;
+  border: none;
+  width: 100%;
+}
+
+#play main .destanations div p:last-of-type {
+  color: rgba(245, 245, 245, 0.5);
+}
+
+#guardianpicker {
+  background-image: url("../images/class_bg_mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  padding-bottom: 0.5em;
+}
+
+#guardian {
+  width: 100%;
+  max-height: 24em;
+  padding: 2em;
+  padding-bottom: 0px;
+}
+
+#play main section #buttondiv {
+  display: flex;
+  position: unset;
+}
+
+#guardianpicker div img {
+  width: 32.5%;
+}
+
+#guardianpicker p:first-of-type {
+  margin: 2em;
+  padding: 20px 0px;
+  border-top: 1px solid #41403d;
+  border-bottom: 1px solid #41403d;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #41403d;
+}
+
+#guardianpicker h3 {
+  font-weight: 700;
+  border-bottom: 1px solid #41403d;
+  padding-bottom: 4px;
+  margin: 1.1em;
+  color: #41403d;
+  font-size: 2em;
+}
+
+#guardianpicker p:last-of-type {
+  margin: 2em;
+  margin-top: 1em;
+  font-size: 1.2em;
+  color: #41403d;
+  opacity: 0.8;
 }

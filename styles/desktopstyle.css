@@ -19,6 +19,8 @@
   header ul li a{
     vertical-align: -webkit-baseline-middle;
     margin-left: 1.5em;
+    color: rgba(245,245,245,0.75);
+    text-decoration: none;
   }
 
   header ul li:nth-of-type(n+2){
@@ -152,6 +154,165 @@
   height: 15vh;
 }
 
+#play .bannerimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/hero_desktop_bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+#play main nav ul li a {
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 13px 13px;
+}
+
+#play main .banner {
+    top: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 61.5vh;
+    margin-bottom: 3em;
+}
+
+#play main .banner p {
+  font-size: 2.5em;
+  width: 23%;
+}
+
+#play main .banner img {
+    padding-top: 8.5em;
+}
+
+  #play main nav {
+    background-color: #41403d;
+    height: 7em;
+}
+
+#play main section:nth-of-type(2) {
+  background-image: url("../images/the_world_1_bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+
+  height: 85vh;
+  margin-bottom: 0em;
+  margin-bottom: -1.9em;
+}
+
+#play main section div {
+    top: 18.5em;
+    margin: 2em;
+    margin-left: 20em;
+    width: 23%;
+}
+
+#play main section:nth-of-type(3) {
+  background-image: url("../images/the_world_2_bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+
+  height: 85vh;
+  margin-bottom: 0em;
+}
+
+#play main section:nth-of-type(3) div {
+    top: 18.5em;
+    margin: 2em;
+    left: 80em;
+    width: 20%;
+}
+
+#play main section:nth-of-type(4) {
+  background-image: url("../images/destinations_bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+
+  height: 110vh;
+  margin-bottom: -2em;
+}
+
+#play main section div {
+    top: 15em;
+}
+
+#guardianpicker {
+  background-image: url("../images/class_bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  padding-bottom: 0.5em;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 46% 20% 10% 20%;
+}
+
+#guardianpicker p:first-of-type {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  font-size: 1.4em;
+  height: 30%;
+  margin: 10em 0em 0em 0em;
+  width: 40%;
+}
+}
+
+#play main section #buttondiv {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  margin: 0;
+  width: 40%;
+  margin-bottom: 1em;
+}
+
+#guardianpicker h3 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  height: 40%;
+  margin: 0;
+  width: 40%;
+}
+
+#guardianpicker p:last-of-type {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  font-size: 1.4em;
+  font-weight: 700;
+  margin: 0px;
+  width: 40%;
+}
+
+#guardian {
+  max-height: 65em;
+  max-width: 50em;
+  margin: 0 9em;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
 /* scrollbar */
 
 ::-webkit-scrollbar {
@@ -168,6 +329,14 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: #272e3d;
+}
+
+.hamburger {
+  transform: translate(0%);
+}
+
+.hidden {
+  transform: translate(100%);
 }
 
 }
