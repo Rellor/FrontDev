@@ -6,19 +6,22 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
-
+1. https://www.bungie.net/
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Ik ben erg blij met mijn eindresultaat. Het was best lastig om te werken zonder het veel gebruiken van classes en divs.
+Soms kwam ik ook in de knoei met het gebruik van Nth-of-type en dat het bij meerdere elementen iets veranderde.
+Verder is de javascript erg goed gelukt en daar ben ik erg blij mee.
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshoteindgesprek1.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshoteindgesprek2.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshoteindgesprek3.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshoteindgesprek4.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screenshoteindgesprek5.png)
 
 
 
