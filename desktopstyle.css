@@ -1,0 +1,365 @@
+@media (min-width: 992px) {
+
+/* Header */
+
+  header{
+    padding: 0.95em 0.3em;
+    height: 78px;
+  }
+
+  header ul li:nth-of-type(n+2){
+    text-align: center;
+    margin-top: 12px;
+    font-size: 0.9em;
+  }
+  header ul li:nth-of-type(n+9){
+    text-align: center;
+    font-size: 1em;
+  }
+  header ul li a{
+    vertical-align: -webkit-baseline-middle;
+    margin-left: 1.5em;
+    color: rgba(245,245,245,0.75);
+    text-decoration: none;
+  }
+
+  header ul li:nth-of-type(n+2){
+    visibility: visible;
+
+    color: rgba(245,245,245,0.75);
+  }
+
+  .navdiv li:nth-of-type(-n+3) {
+  visibility: visible;
+  color: rgba(245,245,245,0.75);
+
+  }
+
+  .navdiv li:nth-of-type(3) {
+  visibility: visible;
+  font-size: 1.5em;
+  margin-top: 2px;
+  }
+
+  .navdiv li:nth-last-of-type(1){
+    visibility: hidden;
+    margin-right: -37px;
+  }
+
+  .navdiv li:nth-of-type(n+4) {
+    margin-top: 6.5px;
+}
+
+  .navdiv button {
+    border: 1px solid #ffce1f;
+    background-color: rgba(183,140,37,0.8);
+    color: white;
+    padding: 8.5px 15px;
+  }
+
+  .navtaal {
+    width: 2.2em;
+  }
+
+/* banner */
+
+  .bannerimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70%;
+    width: 100%;
+    background-image: url("../images/Backgroundimgdesktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  main .banner {
+    padding-top: 17vh;
+    width: 61%;
+  }
+
+  .banner h2 {
+    width: 75%;
+    margin: auto;
+    padding: 0.1em 0em;
+    font-size: 1.8vw;
+  }
+
+    .banner img {
+    width: 32vw;
+  }
+
+/* Featured */
+
+.featured h5 {
+    width: 5vw;
+    padding: 0.4em 0.2em;
+    font-size: 0.9em;
+}
+
+.featured img {
+    width: 98%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.featured article h3 {
+    font-size: 1.3em;
+    position: relative;
+    top: -3.5em;
+    left: 2.5em;
+    border-top: 2px solid rgba(245,245,245,0.2);
+    width: fit-content;
+  }
+
+  .items article:nth-of-type(2) {
+    flex-basis: 25%;
+  }
+
+  .items article:nth-of-type(n+3) {
+    flex-basis: 25%;
+  }
+
+.featured {
+    margin: 26vh 8vw 0vh 8vw;
+}
+
+.items .itemdiv {
+  display: flex;
+  flex-wrap:wrap;
+  margin-top: 0;
+  flex-basis: 23%;
+}
+
+.itemdiv article:nth-of-type(n+1) {
+  flex-basis: 100%;
+}
+
+.itemdiv {
+  margin-top: 0px;
+  height: 41.5vh;
+}
+
+.items .itemdiv img {
+    width: 108%;
+    height: 19.5vh;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.items .itemdiv article{
+  height: 15vh;
+}
+
+.latest {
+  margin: 10vh 8vw 0vh 8vw;
+}
+
+.latest h5 {
+  width: 5vw;
+  padding: 0.4em 0.2em;
+  font-size: 0.9em;
+}
+
+.latest img {
+    width: 50%;
+}
+
+.latestitems button {
+  margin-bottom: 5em;
+}
+
+.latestitems h3 {
+  width: 33%;
+  font-size: 1.4em;
+}
+
+.latestitems p {
+  width: 33%;
+  font-size: 0.75em;
+}
+
+#play .bannerimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/hero_desktop_bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+#play main nav ul li a {
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 13px 13px;
+}
+
+#play main .banner {
+    top: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 61.5vh;
+    margin-bottom: 3em;
+}
+
+#play main .banner p {
+  font-size: 2.5em;
+  width: 23%;
+}
+
+#play main .banner img {
+    padding-top: 8.5em;
+}
+
+  #play main nav {
+    background-color: #41403d;
+    height: 7em;
+}
+
+#play main section:nth-of-type(2) {
+  background-image: url("../images/the_world_1_bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+
+  height: 85vh;
+  margin-bottom: 0em;
+  margin-bottom: -1.9em;
+}
+
+#play main section div {
+    top: 18.5em;
+    margin: 2em;
+    margin-left: 20em;
+    width: 23%;
+}
+
+#play main section:nth-of-type(3) {
+  background-image: url("../images/the_world_2_bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+
+  height: 85vh;
+  margin-bottom: 0em;
+}
+
+#play main section:nth-of-type(3) div {
+    top: 18.5em;
+    margin: 2em;
+    left: 80em;
+    width: 20%;
+}
+
+#play main section:nth-of-type(4) {
+  background-image: url("../images/destinations_bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+
+  height: 110vh;
+  margin-bottom: -2em;
+}
+
+#play main section div {
+    top: 15em;
+}
+
+#guardianpicker {
+  background-image: url("../images/class_bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  padding-bottom: 0.5em;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 46% 20% 10% 20%;
+}
+
+#guardianpicker p:first-of-type {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  font-size: 1.4em;
+  height: 36%;
+  margin: 10em 0em 0em 0em;
+  width: 40%;
+}
+
+#play main section #buttondiv {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  margin: 0;
+  width: 40%;
+  margin-bottom: 1em;
+}
+
+#guardianpicker h3 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  height: 40%;
+  margin: 0;
+  width: 40%;
+}
+
+#guardianpicker p:last-of-type {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  font-size: 1.4em;
+  font-weight: 700;
+  margin: 0px;
+  width: 40%;
+}
+
+#guardian {
+  max-height: 65em;
+  max-width: 50em;
+  margin: 0 9em;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #181c25;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #232936;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #272e3d;
+}
+
+.hidden {
+  transform: translate(100%);
+}
+
+}
