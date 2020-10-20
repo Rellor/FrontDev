@@ -154,6 +154,34 @@
   height: 15vh;
 }
 
+.latest {
+  margin: 10vh 8vw 0vh 8vw;
+}
+
+.latest h5 {
+  width: 5vw;
+  padding: 0.4em 0.2em;
+  font-size: 0.9em;
+}
+
+.latest img {
+    width: 50%;
+}
+
+.latestitems button {
+  margin-bottom: 5em;
+}
+
+.latestitems h3 {
+  width: 33%;
+  font-size: 1.4em;
+}
+
+.latestitems p {
+  width: 33%;
+  font-size: 0.75em;
+}
+
 #play .bannerimg {
   position: absolute;
   top: 0;
@@ -328,10 +356,6 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: #272e3d;
-}
-
-.hamburger {
-  transform: translate(0%);
 }
 
 .hidden {

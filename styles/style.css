@@ -96,7 +96,6 @@ header ul li:nth-of-type(n+2){
   z-index: 69;
   position: absolute;
   top: 40px;
-  transform: translate(0%);
 }
 
 .hamburger li a{
